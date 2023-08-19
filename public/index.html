@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Search Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body class="bg-slate-800 h-screen pt-12 pb-12">
+    <header class="container max-w-4xl mx-auto py-8">
+      <h1 class="text-white text-4xl font-bold text-center">
+        Web Search Chatbot
+      </h1>
+    </header>
+
+    <section class="container max-w-4xl mx-auto py-8 text-white">
+        <p class="text-center p-4 bg-slate-700 w-full rounded-xl" id="response">ChatGPT response goes here..</p>
+    </section>
+
+    <section class="container max-w-4xl mx-auto py-8">
+      <form class="text-center">
+        <input type="text" id="message" placeholder="Enter your question" class="bg-gray-100 border-2 w-full p-4 rounded-lg mb-4" />
+        <button type="submit" id="message-btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl uppercase">
+          Ask
+      </form>
+    </section>
+  </body>
+</html>
